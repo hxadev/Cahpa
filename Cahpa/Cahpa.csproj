@@ -46,14 +46,99 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Form_cahpa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form_cahpa.Designer.cs">
+      <DependentUpon>Form_cahpa.cs</DependentUpon>
     </Compile>
+    <Compile Include="PanelElementosGeometricos\Asimetricos\FormTrapecialSimetrico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Asimetricos\FormTrapecialSimetrico.Designer.cs">
+      <DependentUpon>FormTrapecialSimetrico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Asimetricos\FormTriangularAsimetrico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Asimetricos\FormTriangularAsimetrico.Designer.cs">
+      <DependentUpon>FormTriangularAsimetrico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Circular\FormCircular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Circular\FormCircular.Designer.cs">
+      <DependentUpon>FormCircular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\FormElementosGeometricos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\FormElementosGeometricos.Designer.cs">
+      <DependentUpon>FormElementosGeometricos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Simetricos\FormRectagularSimetrico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Simetricos\FormRectagularSimetrico.Designer.cs">
+      <DependentUpon>FormRectagularSimetrico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Simetricos\FormTrapecialSimetrico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Simetricos\FormTrapecialSimetrico.Designer.cs">
+      <DependentUpon>FormTrapecialSimetrico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Simetricos\FormTriangularSimetrico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelElementosGeometricos\Simetricos\FormTriangularSimetrico.Designer.cs">
+      <DependentUpon>FormTriangularSimetrico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelTiranteNormal\FormTiranteNormal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelTiranteNormal\FormTiranteNormal.Designer.cs">
+      <DependentUpon>FormTiranteNormal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelTiranteNormal\SeccionRectangular\SeccionRectangularTn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelTiranteNormal\SeccionRectangular\SeccionRectangularTn.Designer.cs">
+      <DependentUpon>SeccionRectangularTn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelTiranteNormal\TiranteNormal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_cahpa.resx">
+      <DependentUpon>Form_cahpa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelElementosGeometricos\Asimetricos\FormTrapecialSimetrico.resx">
+      <DependentUpon>FormTrapecialSimetrico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelElementosGeometricos\Asimetricos\FormTriangularAsimetrico.resx">
+      <DependentUpon>FormTriangularAsimetrico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelElementosGeometricos\Circular\FormCircular.resx">
+      <DependentUpon>FormCircular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelElementosGeometricos\FormElementosGeometricos.resx">
+      <DependentUpon>FormElementosGeometricos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelElementosGeometricos\Simetricos\FormRectagularSimetrico.resx">
+      <DependentUpon>FormRectagularSimetrico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelElementosGeometricos\Simetricos\FormTrapecialSimetrico.resx">
+      <DependentUpon>FormTrapecialSimetrico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelElementosGeometricos\Simetricos\FormTriangularSimetrico.resx">
+      <DependentUpon>FormTriangularSimetrico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelTiranteNormal\FormTiranteNormal.resx">
+      <DependentUpon>FormTiranteNormal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelTiranteNormal\SeccionRectangular\SeccionRectangularTn.resx">
+      <DependentUpon>SeccionRectangularTn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
